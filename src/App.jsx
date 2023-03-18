@@ -1,27 +1,31 @@
 import './App.css'
-import { Button, ButtonGroup } from '@mui/material'
+import {Routes, Route} from 'react-router-dom'
 import Navbar from './components/Navbar'
-import Producto from './components/Producto'
+import ItemDetailContainer from './components/ItemDetailContainer'
 import ItemListContainer from './components/ItemListContainer'
+import {useState, useEffect} from 'react'
 
 function App() {
-
-  return (
-    <div>
-      <Navbar />
-      <h1>COMPRA LAS KEYS QUE NECESITES</h1>
-      <div className='contenedor-categorias'>
-        <ButtonGroup>
-          <Button variant='text' className='boton-categoria'>SISTEMA OPERATIVO</Button>
-          <Button variant='text' className='boton-categoria'>EDICION DE AUDIO</Button>
-          <Button variant='text' className='boton-categoria'>JUEGO</Button>
-          <Button variant='text' className='boton-categoria'>EDICION DE VIDEO</Button>
-        </ButtonGroup>
-      </div>
-      <ItemListContainer greeting='Hola muy buenos dias!'/>
-      <Producto />
-    </div>
-  )
+	const [productos, setProductos] = useState([])
+	useEffect(() => {
+		fetch('/data/productos.json')
+			.then((response) => response.json())
+			.then((data) => setProductos(data))
+			.catch((error) => console.log(error))
+	}, [])
+	return (
+		<div>
+			<Navbar />
+			<Routes>
+				<Route path='/' element={<ItemListContainer />} />
+				<Route path='/category/:categoryId' element={<ItemListContainer />} />
+				<Route
+					path='/item/:id'
+					element={<ItemDetailContainer productos={productos} />}
+				/>
+			</Routes>
+		</div>
+	)
 }
 
 export default App

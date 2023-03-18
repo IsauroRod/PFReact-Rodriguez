@@ -1,7 +1,28 @@
 .greeting-prop {
-    color: #1976d2;
-    font-family: 'Roboto', sans-serif ;
-    font-weight: 400;
-    font-size: 1.5rem;
-    text-align: center;
+	color: #1976d2;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'rubik', sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+.contenedor-compra {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contenedor-itemlist {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	flex-wrap: wrap;
+	max-width: 1410px;
 }

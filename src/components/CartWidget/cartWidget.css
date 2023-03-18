@@ -1,17 +1,14 @@
-.cart-container
-{
-    margin-bottom: -50px;
+.cart-container {
+	margin-bottom: -50px;
 }
 
-.cart-amount
-{
-    position: relative;
-    padding: 0px 5px;
-    text-align: center;
-    margin-right: 27px ;
-    bottom: 38px;
-    right: -36px;
-    background-color: #0026ff38;
-    border-radius: 50%;
-
+.cart-amount {
+	position: relative;
+	padding: 0px 5px;
+	text-align: center;
+	margin-right: 27px;
+	bottom: 38px;
+	right: -36px;
+	background-color: #0026ff38;
+	border-radius: 50%;
 }

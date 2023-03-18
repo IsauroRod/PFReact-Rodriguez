@@ -1,0 +1,12 @@
+.boton-categoria:hover {
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	border-radius: 0px;
+}
+
+.contenedor-categorias {
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}

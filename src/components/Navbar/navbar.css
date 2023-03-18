@@ -1,20 +1,18 @@
 .container {
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
-    padding: 5px 0px;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-bottom-color: #949af0;
-    margin: 10px;
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Roboto', sans-serif;
+	padding: 5px 0px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #949af0;
+	margin: 10px;
 }
 
-.grupo-pags
-{
-    margin-right: 89px;
+.grupo-pags {
+	margin-right: 89px;
 }
 
-.logo
-{
-    height: 41px;
+.logo {
+	height: 41px;
 }
