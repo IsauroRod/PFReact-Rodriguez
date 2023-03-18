@@ -14,6 +14,7 @@ const ItemDetailContainer = (prop) => {
 				<div
 					style={{backgroundImage: `url(${producto.foto})`}}
 					className='contenedor-foto'
+					alt={producto.nombre}
 				></div>
 				<aside>
 					<p className='descripcion-estilos'>{producto.descripcionExt}</p>

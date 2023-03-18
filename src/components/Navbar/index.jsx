@@ -9,7 +9,7 @@ export const Navbar = () => {
 		<nav className='container'>
 			<Link to='/' className='link'>
 				<a href=''>
-					<img src={logo} alt='' className='logo' />
+					<img src={logo} alt='keystop' className='logo' />
 				</a>
 			</Link>
 			<ButtonGroup

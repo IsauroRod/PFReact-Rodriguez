@@ -14,6 +14,7 @@ export default function Producto({producto}) {
 				sx={{height: 140}}
 				image={producto.foto}
 				title={producto.nombre}
+				alt={producto.nombre}
 			/>
 			<CardContent>
 				<Typography gutterBottom variant='h5' component='div'>
