@@ -1,6 +1,7 @@
 import {IconButton} from '@mui/material'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart'
 import './cartWidget.css'
+import {useState} from 'react'
 
 const CartWidget = () => {
 	return (

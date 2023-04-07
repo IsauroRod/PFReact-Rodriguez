@@ -1,56 +1,56 @@
 [
-    {
-        "id":"1",
-        "nombre":"Windows 11 Pro",
-        "precio":300,
-        "foto":"/src/assets/image.jpg",
-        "categoria":"so",
-        "descripcion":"Windows 11 Pro ofrece características avanzadas de seguridad, productividad y gestión, lo que lo convierte en una gran opción para empresas y usuarios avanzados.",
-        "descripcionExt":"El último sistema operativo de Microsoft cuenta con una interfaz moderna y mejoras en la productividad, seguridad, velocidad y rendimiento, incluyendo un inicio más rápido, tiempos de carga de aplicaciones más rápidos y características de optimización de batería. Con soporte para tecnologías avanzadas como Bluetooth 5.2 y Wi-Fi 6E, el sistema operativo ofrece una conectividad más rápida y estable para dispositivos y redes. En resumen, esta opción atractiva para usuarios que buscan un sistema operativo eficiente y seguro para sus dispositivos."
-    },
-    {
-        "id":"2",
-        "nombre":"Doom Eternal",
-        "precio":500,
-        "foto":"https://www.showmetech.com.br/wp-content/uploads//2020/04/doom.png",
-        "categoria":"juegos",
-        "descripcion":"Juego de disparos en primera persona con una jugabilidad intensa y frenética, desafiando a los jugadores con su ritmo acelerado y enemigos desafiantes.",
-        "descripcionExt":"Doom Eternal es un juego de disparos en primera persona desarrollado por id Software. El juego es una continuación del aclamado Doom de 2016 y cuenta con un combate rápido y frenético, donde los jugadores se enfrentan a hordas de demonios en una variedad de escenarios. La historia sigue al protagonista, el Doom Slayer, en su lucha contra los demonios del infierno para salvar a la humanidad. El juego también incluye nuevos enemigos, armas y habilidades para el Doom Slayer, lo que permite una experiencia de juego aún más intensa. Doom Eternal es un juego emocionante y desafiante para los fanáticos de los juegos de disparos en primera persona."
-    },
-    {
-        "id":"3",
-        "nombre":"Windows 10",
-        "precio":250,
-        "foto":"https://news.microsoft.com/wp-content/uploads/prod/sites/41/2015/01/Windows10_logo_1024x512.png",
-        "categoria":"so",
-        "descripcion":"Sistema operativo seguro y moderno con características mejoradas de privacidad y aplicaciones integradas para una experiencia rápida y eficiente.", 
-        "descripcionExt":"Windows 10 es el sistema operativo más reciente de Microsoft. La interfaz es moderna e intuitiva, con características mejoradas de seguridad y privacidad, protegiendo al usuario contra virus, malware y encriptando los datos. Además, cuenta con una amplia variedad de aplicaciones y herramientas integradas, como Cortana, el asistente virtual de Microsoft, y la tienda de aplicaciones de Microsoft. Su velocidad y rendimiento son mayores en comparación con versiones anteriores de Windows, lo que permite una experiencia de usuario más rápida y eficiente. En resumen, Windows 10 es un sistema operativo seguro, moderno y rápido para usuarios de PC."
-    },
-    {
-        "id":"4",
-        "nombre":"Battlefield 2042",
-        "precio":1000,
-        "foto":"https://media.contentapi.ea.com/content/dam/battlefield/battlefield-2042/images/2021/04/k-1920x1080-featured-image.jpg.adapt.crop191x100.1200w.jpg",
-        "categoria":"juegos",
-        "descripcion":"Videojuego de disparos en equipo ambientado en un futuro cercano con mapas dinámicos y grandes, que presenta situaciones impredecibles y emocionantes para los jugadores.",
-        "descripcionExt":"Battlefield 2042 es un videojuego de disparos en primera persona que te sumerge en un futuro cercano, en el que las guerras climáticas han llevado a la escasez de recursos y la anarquía global. En este contexto, los jugadores pueden unirse a un equipo y luchar en mapas enormes y dinámicos que presentan situaciones impredecibles como ciudades devastadas por tornados y glaciares derretidos. El juego presenta un enfoque en el juego en equipo y la capacidad de adaptación de los jugadores. Con un modo multijugador masivo, Battlefield 2042 ofrece una experiencia de juego emocionante y desafiante para los fans de los juegos de disparos en primera persona."
-    },
-    {
-        "id":"5",
-        "nombre":"Pro Tools",
-        "precio":5000,
-        "foto":"https://cdn-www.avid.com/-/media/avid/images/hero-products/pro-tools-2020/new-hero-banner/pro-tools-social-banner.jpg",
-        "categoria":"audio",
-        "descripcion":"Herramienta esencial para la producción y edición de audio, con una gran precisión y control, utilizada por profesionales en la industria musical y de producción.",
-        "descripcionExt":"Pro Tools es una popular herramienta de edición de audio digital utilizada por profesionales en la industria musical y de producción. Este software de grabación y mezcla permite a los usuarios editar, mezclar y producir audio con una gran precisión y control. Ofrece una amplia variedad de herramientas y funciones avanzadas, como la edición no destructiva y la automatización de parámetros. Además, se integra con una amplia variedad de interfaces de audio y controladores de superficie, lo que permite una experiencia de usuario personalizada. En resumen, Pro Tools es una herramienta de edición de audio digital esencial para cualquier profesional de la música o producción."
-    },
-    {
-        "id":"6",
-        "nombre":"Adobe Audition CC 2021",
-        "precio":3000,
-        "foto":"https://static.wixstatic.com/media/8df5c8_cfefc9404fac4471ac18840cb21eac12~mv2.jpg/v1/fill/w_702,h_336,al_c,q_85/8df5c8_cfefc9404fac4471ac18840cb21eac12~mv2.jpg",
-        "categoria":"audio",
-        "descripcionExt":"Adobe Audition CC 2021 es un software de edición de audio profesional utilizado por músicos, productores y diseñadores de sonido. Con una interfaz intuitiva, una amplia gama de herramientas y funciones avanzadas, como la eliminación de ruido, el ecualizador y la automatización de parámetros, Adobe Audition CC 2021 permite a los usuarios crear y editar audio con precisión y control. Además, se integra con otros productos de Adobe, como Premiere Pro y After Effects, lo que permite una edición de audio y vídeo más fluida. En resumen, Adobe Audition CC 2021 es una herramienta esencial para cualquier profesional del audio que busca crear una calidad de sonido excepcional.",
-        "descripcion":"Adobe Audition CC es una herramienta esencial para cualquier profesional del audio, con una interfaz intuitiva y funciones avanzadas para crear y editar audio con precisión y control."
-    }
+	{
+		"id": "1",
+		"nombre": "Windows 11 Pro",
+		"precio": 300,
+		"foto": "/src/assets/image.jpg",
+		"categoria": "so",
+		"descripcion": "Windows 11 Pro ofrece características avanzadas de seguridad, productividad y gestión, lo que lo convierte en una gran opción para empresas y usuarios avanzados.",
+		"descripcionExt": "El último sistema operativo de Microsoft cuenta con una interfaz moderna y mejoras en la productividad, seguridad, velocidad y rendimiento, incluyendo un inicio más rápido, tiempos de carga de aplicaciones más rápidos y características de optimización de batería. Con soporte para tecnologías avanzadas como Bluetooth 5.2 y Wi-Fi 6E, el sistema operativo ofrece una conectividad más rápida y estable para dispositivos y redes. En resumen, esta opción atractiva para usuarios que buscan un sistema operativo eficiente y seguro para sus dispositivos."
+	},
+	{
+		"id": "2",
+		"nombre": "Doom Eternal",
+		"precio": 500,
+		"foto": "https://www.showmetech.com.br/wp-content/uploads//2020/04/doom.png",
+		"categoria": "juegos",
+		"descripcion": "Juego de disparos en primera persona con una jugabilidad intensa y frenética, desafiando a los jugadores con su ritmo acelerado y enemigos desafiantes.",
+		"descripcionExt": "Doom Eternal es un juego de disparos en primera persona desarrollado por id Software. El juego es una continuación del aclamado Doom de 2016 y cuenta con un combate rápido y frenético, donde los jugadores se enfrentan a hordas de demonios en una variedad de escenarios. La historia sigue al protagonista, el Doom Slayer, en su lucha contra los demonios del infierno para salvar a la humanidad. El juego también incluye nuevos enemigos, armas y habilidades para el Doom Slayer, lo que permite una experiencia de juego aún más intensa. Doom Eternal es un juego emocionante y desafiante para los fanáticos de los juegos de disparos en primera persona."
+	},
+	{
+		"id": "3",
+		"nombre": "Windows 10",
+		"precio": 250,
+		"foto": "https://news.microsoft.com/wp-content/uploads/prod/sites/41/2015/01/Windows10_logo_1024x512.png",
+		"categoria": "so",
+		"descripcion": "Sistema operativo seguro y moderno con características mejoradas de privacidad y aplicaciones integradas para una experiencia rápida y eficiente.",
+		"descripcionExt": "Windows 10 es el sistema operativo más reciente de Microsoft. La interfaz es moderna e intuitiva, con características mejoradas de seguridad y privacidad, protegiendo al usuario contra virus, malware y encriptando los datos. Además, cuenta con una amplia variedad de aplicaciones y herramientas integradas, como Cortana, el asistente virtual de Microsoft, y la tienda de aplicaciones de Microsoft. Su velocidad y rendimiento son mayores en comparación con versiones anteriores de Windows, lo que permite una experiencia de usuario más rápida y eficiente. En resumen, Windows 10 es un sistema operativo seguro, moderno y rápido para usuarios de PC."
+	},
+	{
+		"id": "4",
+		"nombre": "Battlefield 2042",
+		"precio": 1000,
+		"foto": "https://media.contentapi.ea.com/content/dam/battlefield/battlefield-2042/images/2021/04/k-1920x1080-featured-image.jpg.adapt.crop191x100.1200w.jpg",
+		"categoria": "juegos",
+		"descripcion": "Videojuego de disparos en equipo ambientado en un futuro cercano con mapas dinámicos y grandes, que presenta situaciones impredecibles y emocionantes para los jugadores.",
+		"descripcionExt": "Battlefield 2042 es un videojuego de disparos en primera persona que te sumerge en un futuro cercano, en el que las guerras climáticas han llevado a la escasez de recursos y la anarquía global. En este contexto, los jugadores pueden unirse a un equipo y luchar en mapas enormes y dinámicos que presentan situaciones impredecibles como ciudades devastadas por tornados y glaciares derretidos. El juego presenta un enfoque en el juego en equipo y la capacidad de adaptación de los jugadores. Con un modo multijugador masivo, Battlefield 2042 ofrece una experiencia de juego emocionante y desafiante para los fans de los juegos de disparos en primera persona."
+	},
+	{
+		"id": "5",
+		"nombre": "Pro Tools",
+		"precio": 5000,
+		"foto": "https://cdn-www.avid.com/-/media/avid/images/hero-products/pro-tools-2020/new-hero-banner/pro-tools-social-banner.jpg",
+		"categoria": "audio",
+		"descripcion": "Herramienta esencial para la producción y edición de audio, con una gran precisión y control, utilizada por profesionales en la industria musical y de producción.",
+		"descripcionExt": "Pro Tools es una popular herramienta de edición de audio digital utilizada por profesionales en la industria musical y de producción. Este software de grabación y mezcla permite a los usuarios editar, mezclar y producir audio con una gran precisión y control. Ofrece una amplia variedad de herramientas y funciones avanzadas, como la edición no destructiva y la automatización de parámetros. Además, se integra con una amplia variedad de interfaces de audio y controladores de superficie, lo que permite una experiencia de usuario personalizada. En resumen, Pro Tools es una herramienta de edición de audio digital esencial para cualquier profesional de la música o producción."
+	},
+	{
+		"id": "6",
+		"nombre": "Adobe Audition CC 2021",
+		"precio": 3000,
+		"foto": "https://static.wixstatic.com/media/8df5c8_cfefc9404fac4471ac18840cb21eac12~mv2.jpg/v1/fill/w_702,h_336,al_c,q_85/8df5c8_cfefc9404fac4471ac18840cb21eac12~mv2.jpg",
+		"categoria": "audio",
+		"descripcionExt": "Adobe Audition CC 2021 es un software de edición de audio profesional utilizado por músicos, productores y diseñadores de sonido. Con una interfaz intuitiva, una amplia gama de herramientas y funciones avanzadas, como la eliminación de ruido, el ecualizador y la automatización de parámetros, Adobe Audition CC 2021 permite a los usuarios crear y editar audio con precisión y control. Además, se integra con otros productos de Adobe, como Premiere Pro y After Effects, lo que permite una edición de audio y vídeo más fluida. En resumen, Adobe Audition CC 2021 es una herramienta esencial para cualquier profesional del audio que busca crear una calidad de sonido excepcional.",
+		"descripcion": "Adobe Audition CC es una herramienta esencial para cualquier profesional del audio, con una interfaz intuitiva y funciones avanzadas para crear y editar audio con precisión y control."
+	}
 ]
