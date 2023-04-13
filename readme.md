@@ -1,10 +1,13 @@
-#KeyStop
-##Descripción del proyecto
+# KeyStop
+
+## Descripción del proyecto
+
 <small>
 KeyStop es una aplicación web para licencias de software o juegos en línea. Los usuarios pueden buscar productos por categoría, ver detalles de los productos, agregarlos al carrito de compras y realizar el pago de los mismos.
 </small>
 
-##Tecnologías utilizadas
+## Tecnologías utilizadas
+
 <small>
 La aplicación está desarrollada con las siguientes tecnologías:
 
@@ -14,6 +17,7 @@ La aplicación está desarrollada con las siguientes tecnologías:
   </small>
 
 ##Funcionalidades
+
 <small>
 La aplicación cuenta con las siguientes funcionalidades:
 
@@ -27,7 +31,8 @@ La aplicación cuenta con las siguientes funcionalidades:
 - Realización de pagos con tarjeta de crédito o débito mediante la plataforma Stripe.
   </small>
 
-##Configuración del proyecto
+## Configuración del proyecto
+
 Para ejecutar el proyecto en un entorno local, sigue estos pasos:
 <small>1. Clona el repositorio en tu equipo:</small>
 

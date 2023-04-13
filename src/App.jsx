@@ -6,6 +6,7 @@ import ItemListContainer from './components/ItemListContainer'
 import Cart from './components/Cart'
 import Checkout from './components/Checkout'
 import {CartProvider} from './contexts/CartContext'
+import NotFound from './components/NotFound'
 function App() {
 	return (
 		<CartProvider>
@@ -16,6 +17,7 @@ function App() {
 				<Route path='/category/:categoryId' element={<ItemListContainer />} />
 				<Route path='/item/:id' element={<ItemDetailContainer />} />
 				<Route path='/checkout' element={<Checkout />} />
+				<Route path='/*' element={<NotFound />} />
 			</Routes>
 		</CartProvider>
 	)
