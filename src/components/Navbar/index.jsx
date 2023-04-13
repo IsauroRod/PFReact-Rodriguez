@@ -8,9 +8,7 @@ export const Navbar = () => {
 	return (
 		<nav className='container'>
 			<Link to='/' className='link'>
-				<a href=''>
-					<img src={logo} alt='keystop' className='logo' />
-				</a>
+				<img src={logo} alt='keystop' className='logo' />
 			</Link>
 			<ButtonGroup
 				variant='outlined'

@@ -6,8 +6,12 @@ import {Button} from '@mui/material'
 import Typography from '@mui/material/Typography'
 import {Link} from 'react-router-dom'
 import './producto.css'
+import {useContext} from 'react'
+import {CartContext} from '../../contexts/CartContext'
 
 export default function Producto({producto}) {
+	const {addItem} = useContext(CartContext)
+
 	return (
 		<Card sx={{maxWidth: 345, minHeight: 340}} className='display-inline'>
 			<CardMedia
@@ -25,7 +29,11 @@ export default function Producto({producto}) {
 				</Typography>
 			</CardContent>
 			<CardActions>
-				<Button size='small' variant='outlined'>
+				<Button
+					size='small'
+					variant='outlined'
+					onClick={() => addItem(producto, 1)}
+				>
 					Agregar
 				</Button>
 				<Link to={`/item/${producto.id}`} className='link'>

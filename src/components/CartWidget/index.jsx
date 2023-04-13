@@ -1,11 +1,23 @@
 import {IconButton} from '@mui/material'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart'
 import './cartWidget.css'
-import {useState} from 'react'
+import {useContext, useState} from 'react'
+import {CartContext} from '../../contexts/CartContext'
+import {Link} from 'react-router-dom'
 
 const CartWidget = () => {
+	const {cartProds} = useContext(CartContext)
+
+	const calcularCantidad = () => {
+		let cantidad = 0
+		cartProds.forEach((prod) => {
+			cantidad += prod.cantidad
+		})
+		return cantidad
+	}
+
 	return (
-		<div className='cart-container'>
+		<Link className='cart-container' to={`/cart`}>
 			<IconButton
 				aria-label='add to shopping cart'
 				color='primary'
@@ -13,8 +25,8 @@ const CartWidget = () => {
 			>
 				<ShoppingCartIcon fontSize='large' />
 			</IconButton>
-			<p className='cart-amount'>0</p>
-		</div>
+			<p className='cart-amount'>{calcularCantidad()}</p>
+		</Link>
 	)
 }
 
