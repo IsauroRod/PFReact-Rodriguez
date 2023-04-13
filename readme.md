@@ -1,13 +1,19 @@
 # KeyStop
 
 ## Descripción del proyecto
+<<<<<<< HEAD
 
+=======
+>>>>>>> ff2d206ffe12c33394a1e147f1b35d45d553dc82
 <small>
 KeyStop es una aplicación web para licencias de software o juegos en línea. Los usuarios pueden buscar productos por categoría, ver detalles de los productos, agregarlos al carrito de compras y realizar el pago de los mismos.
 </small>
 
 ## Tecnologías utilizadas
+<<<<<<< HEAD
 
+=======
+>>>>>>> ff2d206ffe12c33394a1e147f1b35d45d553dc82
 <small>
 La aplicación está desarrollada con las siguientes tecnologías:
 
@@ -16,8 +22,12 @@ La aplicación está desarrollada con las siguientes tecnologías:
 - Material-UI: Framework de React para construir interfaces de usuario basadas en Material Design.
   </small>
 
+<<<<<<< HEAD
 ##Funcionalidades
 
+=======
+## Funcionalidades
+>>>>>>> ff2d206ffe12c33394a1e147f1b35d45d553dc82
 <small>
 La aplicación cuenta con las siguientes funcionalidades:
 
@@ -32,7 +42,10 @@ La aplicación cuenta con las siguientes funcionalidades:
   </small>
 
 ## Configuración del proyecto
+<<<<<<< HEAD
 
+=======
+>>>>>>> ff2d206ffe12c33394a1e147f1b35d45d553dc82
 Para ejecutar el proyecto en un entorno local, sigue estos pasos:
 <small>1. Clona el repositorio en tu equipo:</small>
 
