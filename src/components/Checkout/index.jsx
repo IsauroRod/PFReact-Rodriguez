@@ -1,6 +1,6 @@
 import {Button, CircularProgress} from '@mui/material'
 import {sendOrder} from '/db/sendOrder'
-import 'src/components/Checkout/checkout.css'
+import '/src/components/Checkout/checkout.css'
 import {CartContext} from '../../contexts/CartContext'
 import {useContext, useEffect, useState} from 'react'
 import {Link} from 'react-router-dom'
